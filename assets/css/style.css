@@ -1,0 +1,249 @@
+.navbar-item {
+  float: left;
+  padding: 10px;
+  list-style-type: none;
+  color:  #5485BB;
+  cursor: pointer
+
+}
+
+
+img#logo-left{
+  float: left;
+  left: 0px;
+  height: 10%;
+  width: 10%;
+  position: fixed;
+}
+
+span{
+  float:right;
+  color:  #5485BB;
+  position: relative;
+  top: -20px;
+  background:  white;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 2px;
+  margin-top: 10px;
+  height: 30%;
+  margin-right: 10px;
+}
+h2#login{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  top: inherit;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+#modal-container {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 200;
+}
+
+#modal-overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+#modal-box-wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+#modal-box {
+    position: relative;
+    margin: auto;
+    top: 50%;
+    margin-top: -130px;
+    width: 500px;
+    height: 260px;
+    background: #5485BB;
+    z-index: 200;
+
+}
+#modal-header {
+    height: 25px;
+    color: white;
+    font-size: 28px;
+    padding: 20px;
+}
+
+#modal-content {
+    height: 120px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#modal-footer {
+    height: 25px;
+    padding: 20px;
+    padding-top: 10px;
+    padding-left: 275px;
+}
+.navbar-container{
+  width: 100%;
+  height: 10%;
+  top: 0px;
+  position: absolute;
+  background: black;
+  z-index: 100;
+  position: fixed;
+  
+}
+
+
+#bg {
+  vertical-align: top;  
+  width: 100%; 
+  height: 100%;
+  z-index: -2;
+
+}
+img {
+  position: absolute; 
+  top: 0; 
+  right: 0; 
+  margin: auto; 
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  vertical-align: bottom;
+  -webkit-filter: blur(0.5px);
+}
+#categories{
+  position: relative;
+  color: white
+  top: 30%;
+  z-index: 100;
+  left:40%;
+  margin: 20px;
+  top: 30%;
+}
+.button{
+    display: inline-block;
+    background: #FFFFFF;
+    color: #5485BB;
+    width: 75px;
+    height: 20px;
+    text-align: center;
+    padding: 10px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.section{
+  width: 100%;
+  height: 500px;
+  position: relative;
+
+}
+
+.page-wrapper {
+  height: 100%;
+  width: 100%;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+}
+
+#about-section{
+  background-color: #5496BB;
+ 
+ 
+}
+
+#news-section{
+  background-color: #FFD6BF;
+  
+
+}
+body {  /*the outer layer of the site and global style attributes*/
+font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+margin: 0px;
+background: #edeae5;
+}
+
+#search-bar{
+    z-index: 100;
+    position: relative;
+    top: 30%;
+    
+  }
+#search{
+  padding: 10px;
+  height: 100%;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  position: relative;
+
+}
+#title{
+    z-index: 100;
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 1.1;
+    color:  #FFFFFF;
+    top: 35%;
+  }
+#subtitle{
+    z-index: 100;
+    position: relative;
+    text-align: center;
+    color:  #FFFFFF;
+    top: 30%;
+  }
+#about-container{
+  height: 60%;
+  width: 80%;
+  background: #FFFFFF;
+  display: block;
+  top: 20px;
+  margin-top: 20px;
+  position: absolute;
+  left: 100px;
+}
+#about-title{
+  font-size: 36px;
+  padding: 10px;
+}
+#news-container{
+  height: 60%;
+  width: 80%;
+  background: #FFFFFF;
+  display: block;
+  top: 20px;
+  margin-top: 20px;
+  position: absolute;
+  left: 100px;
+
+}
+#new-title{
+  font-size: 36px;
+  padding: 10px;
+}
+.news-item{
+  list-style-type: none;
+  font-size: 24px;
+
+}
+
+
+
+
+
+
+
